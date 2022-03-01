@@ -1,0 +1,29 @@
+.wrapperP{
+    text-align: center;
+    display: grid;
+    background-color: white;
+}
+
+
+.containerP{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.partners-imgs{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.partners-text{
+    padding: 50px;
+    color: #a98958;
+}
+.partner{
+    margin: 15px;
+    width: 150px;
+    height: 100px;
+}

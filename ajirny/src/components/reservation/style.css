@@ -1,0 +1,86 @@
+        .open-button {
+            background-color: #555;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            bottom: 23px;
+            width: 400px;
+        }
+        /* sahar */
+        
+        .contact-error {
+            color: red;
+        }
+        
+        .placecontact__form,
+        .reservationHour__form,
+        .reservationDay__form {
+            width: fit-content;
+            margin: 15vh auto 0 auto;
+            padding: 2vh 2vw;
+            border-radius: 10px;
+        }
+        
+        .placecontact__form h1,
+        .reservationHour__form h1,
+        .reservationDay__form h1 {
+            margin-bottom: 5vh;
+        }
+        /* The popup form - hidden by default */
+        
+        .form-popup {
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+        }
+        /* Add styles to the form container */
+        
+        .form-container {
+            max-width: 500px;
+            padding: 10px;
+            background-color: white;
+        }
+        /* Full-width input fields */
+        
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+        /* When the inputs get focus, do something */
+        
+        .form-container input[type=text]:focus,
+        .form-container input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        /* Set a style for the submit/login button */
+        
+        .form-container .btn {
+            margin-top: 5vh;
+            background-color: #D1A056;
+            color: black;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+        /* Add a red background color to the cancel button */
+        
+        .form-container .cancel {
+            background-color: rgb(187, 187, 187);
+        }
+        /* Add some hover effects to buttons */
+        
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+        }
